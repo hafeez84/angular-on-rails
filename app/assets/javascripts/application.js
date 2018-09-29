@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require activestorage
 //= require angular
+//= require angular-route
 //= require angular-rails-templates
 //= require angular-ui-router
 //= require turbolinks
