@@ -16,4 +16,8 @@ class UsersController < ApplicationController
   		format.json{render json: @user}
   	end
   end
+
+  def image
+    
+  end
 end

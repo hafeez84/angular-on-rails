@@ -13,7 +13,7 @@ myApp.config(['$stateProvider', '$urlRouterProvider',
 			controller:'Mainctrl'
 		})
 		.state('search', {
-			url: '/search',
+			url: '/',
 			templateUrl: 'main/search.html',
 			controller:'Searchctrl'
 		})
@@ -23,6 +23,6 @@ myApp.config(['$stateProvider', '$urlRouterProvider',
 			controller:'Detailsctrl'
 		});
 
-		// $urlRouterProvider.otherwise('/home');
+		$urlRouterProvider.otherwise('/');
 	}
 ]);
