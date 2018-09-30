@@ -1,9 +1,10 @@
 class UsersController < ApplicationController
+  skip_before_action :verify_authenticity_token, :only => [:update]
   def index
   	@users = User.all
   	respond_to do |format|
   		format.html
-  		format.json{render json: @users}
+  		format.json{render json: @users, status: 200}
   	end
   end
 

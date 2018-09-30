@@ -23,6 +23,6 @@ myApp.config(['$stateProvider', '$urlRouterProvider',
 			controller:'Detailsctrl'
 		});
 
-		$urlRouterProvider.otherwise('/home');
+		// $urlRouterProvider.otherwise('/home');
 	}
 ]);
