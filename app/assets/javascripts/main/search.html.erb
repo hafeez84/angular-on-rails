@@ -50,7 +50,7 @@
           ng-repeat="item in artists | filter: query |
           orderBy:artistOrder:direction">
   
-              <a href="#/details/{{artists.indexOf(item)}}">
+              <a href="#!/details/{{artists.indexOf(item)}}">
               <div class="media d-flex align-items-center">
                 <img class="rounded-circle mr-3"
                   ng-src="images/{{item.shortname}}_tn.jpg"
